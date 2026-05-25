@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2E7D32;
+  --color-secondary: #8D6E63;
+  --color-accent: #FFC107;
+  --font-display: "Manrope", sans-serif;
+  --font-body: "Plus Jakarta Sans", sans-serif;
+}

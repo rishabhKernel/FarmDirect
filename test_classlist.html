@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="test" class="a"></div>
+<script>
+    try {
+        document.getElementById('test').classList.add("after:content-['']");
+        console.log('Success');
+    } catch(e) {
+        console.error(e);
+    }
+</script>
+</body>
+</html>
